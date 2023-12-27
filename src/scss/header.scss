@@ -1,0 +1,57 @@
+.group{
+    height: 48px;
+    position: relative;
+    width: 1110px;
+    left: 130px;
+    top: 10px;
+    .listItem{
+  color: #36526a;
+  font-family: "Public Sans-Bold", Helvetica;  
+  font-size: 15px;
+  font-weight: 700;
+  left: 250px;
+  top: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.7;
+  position: relative;
+  list-style: none;
+  display:inline;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.demoButton{
+    height: 30px;
+    float: right;
+    
+    z-index: 1;
+    bottom: 30px;
+    position: relative;
+    border-radius: 24px;
+    background-color: #ba416f;
+    color: white;
+    box-shadow: 10px 10px -10px #36526a40;
+    border: none;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+}
+.tst{
+   position: absolute;
+    .circle{
+    position: fixed;
+    top: -200px;
+    right: -150px;
+    height: 550Px;   
+}
+}
+
+}
+.group .img{
+    height: 39px;
+    left: 20px;
+    position: absolute;
+    top: 5px;
+    width: 135px;
+}
+
