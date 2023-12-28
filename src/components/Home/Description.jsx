@@ -7,23 +7,26 @@ const Description = () => {
   
     const des={
     color:"#36526a",
+    fontSize:"15px",
     fontFamily:"'Public Sans-Regular', Helvetica",
     lineHeight:"25px",
     opacity:'0.7',
     height: "84px",
 width: "450px",
 position:'absolute',
-left: "10px"
+
     }
     const tl={
         color:"#36536B",
-        fontSize:"40px"
+    padding:"0",
+        fontSize:"45px",
+        position:"relative",
+        width:"370px",
+        top:"30px"
     }
     const right ={
-        float:"right",
         position:"absolute",
-        right:"300px",
-        bottom:"80px"
+        right:"200px",
     }
     const second={
         position:'absolute',
@@ -34,7 +37,9 @@ left: "10px"
     }
     const ui={
         position:"relative",
-        bottom: "100px"
+        bottom: "100px",
+        left:"-200px"
+
     }
     const cards={
         display:"flex",
@@ -42,8 +47,11 @@ left: "10px"
         top:"900Px",
         
     }
+    const DescCo={
+        
+    }
     
-    return ( <div>
+    return ( <div style={DescCo}>
         <img style={img} src="/assets/home/desktop/illustration-easy-to-implement.svg" alt="img" />
         <div style={right}>
             <h1 style={tl}>Easy to implement</h1>

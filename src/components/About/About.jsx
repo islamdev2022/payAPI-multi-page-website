@@ -1,4 +1,5 @@
 import TT from "./TT";
+import TN from "./TN";
 import Footer from "../Footer";
 const About = () => {
     const H={
@@ -14,8 +15,15 @@ const About = () => {
         left:"225px",
         marginTop:"80px"
     }
+    const TNcontainer={
+        display:'flex',
+        margin:'50px'
+    }
+    const container={
+        flex:"1"
+    }
     return ( 
-    <div >
+    <div style={container} >
         <h1 style={H}>We empower innovators by delivering access to the financial system </h1>
         <TT title="Our Vision" text="Our main goal is to build beautiful consumer experiences along with developer-friendly infrastructure. The
         result is an intelligent tool that gives everyone the ability to create amazing products that solve big
@@ -24,13 +32,20 @@ const About = () => {
         provides key insights for businesses and individuals, as well as robust reporting for traditional financial
         institutions and developers."></TT>
         <img src="/assets/about/desktop/image-team-members.jpg" alt="" width={"100%"}/>
+
+        <div style={TNcontainer}>
+        <TN title="Team Members" number="300+" ></TN>
+        <TN title="Offices in US" number="3"></TN>
+        <TN title="Transactions analyzed" number="10M+"></TN>
+        </div>
+        
         <TT title="The Culture" text="We strongly believe there's always an opportunity to learn from each other outside of day-to-day work,
         whether it's company-wide offsites, internal hackathons, or co-worker meetups. We always value cross-team
         collaboration and diversity of thought, no matter the job title."></TT>
         <TT title="The People" text="We're all passionate about building a more efficient and inclusive financial infrastructure together. 
         At payAPI, we have diverse background and skills."></TT>
     
-    <Footer></Footer>
+   
     </div> );
 }
  

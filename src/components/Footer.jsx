@@ -1,3 +1,4 @@
+import {Link } from "react-router-dom";
 const Footer = () => {
     return ( <div className="footer">
     <div className="up">
@@ -9,10 +10,16 @@ const Footer = () => {
     </div>
     <div className="down">
     <img className="img" alt="group" src="/assets/shared/desktop/logoWhite.svg"/>
-        <ul className="list">
-        <li className="listItem">Pricing</li>
-            <li className="listItem">About</li>
-            <li className="listItem">Contact</li>
+    <ul className="list">
+            <li className="listItem">
+               <Link className="link" to="/pricing">Pricing</Link> 
+            </li>
+            <li className="listItem">
+                <Link className="link"  to="/about">About</Link>
+            </li>
+            <li className="listItem">
+                <Link className="link" to="/contact">Contact</Link>
+            </li>
         </ul>
         <div className="socialMedia">
             <img className="sm" alt="SM" src="/assets/shared/desktop/facebook.svg"></img>

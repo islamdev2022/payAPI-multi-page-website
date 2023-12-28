@@ -1,6 +1,7 @@
 const TT = ({title,text}) => {
 
     const container={
+        width:"fit-content",
         display:"flex",
         gap:"40px",
         position:"relative",

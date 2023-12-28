@@ -7,13 +7,13 @@ fontSize: "64px",
 fontWeight: "500",
 lineHeight: "70px",
 position: "absolute",
-left:"180px",
+
 top:"140px"
     }
     const left={
         position: "absolute",
-        left: "180px",
-        top: "420px",
+        left: "150px",
+        top: "460px",
         height: "35px",
          borderRadius: "24px",
          boxShadow: "0px 0px 50px 10px #36526a40"

@@ -30,13 +30,12 @@ color:"#fafcfd",
 opacity: "0.7",
 fontSize:"15px"
     }
-    const h1={
+    const he={
 color:"#fafcfd",
 fontFamily:"'DM Serif Display-Regular',Helvetica",
 fontSize:"40px",
 position:"absolute",
-left:"150px",
-top:"40px"
+top:"-10px",
     }
     const button={
         backgroundColor:'#ffffff',
@@ -71,7 +70,7 @@ cursor:"pointer"
     return (
     <div style={container}>
    <img style={circle} src="/assets/shared/desktop/bg-pattern-circle.svg" alt="circle" width={600} />
-   <div><h1 style={h1}>Who we work with</h1>
+   <div><h1 style={he}>Who we work with</h1>
    <p style={p}>Today, millions of people around the world have successfully connected
      their accounts to apps they love using our API. We provide developers with the 
      tools they need to create easy and accessible experiences for their users. 

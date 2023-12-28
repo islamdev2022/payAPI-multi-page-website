@@ -13,7 +13,7 @@ const Home = () => {
     <StartB></StartB>
     <WorkWith></WorkWith>
     <div style={div}> <Description></Description></div>
-    <Footer></Footer>
+    
    
     </> );
 }

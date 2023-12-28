@@ -1,8 +1,9 @@
 .footer{
     position: relative;
+    bottom: -1240px;
 .up{
     left: 120px;
-    bottom: -1840px;
+    bottom: -530px;
     position:absolute ;
     display: flex;
     h3{
@@ -44,10 +45,9 @@
 }
 
 .down{
-   
     height: 70px;
     width: 100%;
-    bottom: -1900px;
+    bottom:-600px;
     position:relative ;
     background-color: #1b262f;
     .img{
@@ -86,4 +86,8 @@
         top: 20px;
         right: 50px;
     }
+}
+.link{
+    text-decoration: none;
+    color: #36526a;
 }

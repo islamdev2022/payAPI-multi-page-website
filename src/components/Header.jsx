@@ -1,19 +1,19 @@
-import { Outlet, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 const Header = () => {
     return ( <div className="group">
         
-           <Link to="/"> <img className="img" alt="group" src="assets/shared/desktop/logo.svg"/></Link> 
+           <Link className="link" to="/"> <img className="img" alt="group" src="assets/shared/desktop/logo.svg"/></Link> 
        
         
         <ul className="list">
             <li className="listItem">
-               <Link to="/pricing">Pricing</Link> 
+               <Link className="link" to="/pricing">Pricing</Link> 
             </li>
             <li className="listItem">
-                <Link to="/about">About</Link>
+                <Link className="link" to="/about">About</Link>
             </li>
             <li className="listItem">
-                <Link to="/contact">Contact</Link>
+                <Link className="link" to="/contact">Contact</Link>
             </li>
         </ul>
         <button className="demoButton">Schedule a Demo</button>
