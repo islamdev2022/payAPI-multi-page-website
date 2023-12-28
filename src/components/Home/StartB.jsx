@@ -36,7 +36,8 @@ top:"140px"
     height: "35px"
        }
        const con={
-        width:"325px"
+        width:"325px",
+        height:"100vh",
        }
        const p={
         color: "#36526a",

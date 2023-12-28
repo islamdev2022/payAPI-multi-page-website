@@ -7,9 +7,6 @@ const WorkWith = () => {
         zIndex:"2"
     }
     const container={
-        
-        position:"relative",
-        bottom:"-630px",
         height:"380px",
         width:"100%",
         zIndex:"2",
@@ -25,7 +22,6 @@ height:"100px",
 width:"410px",
 position:"relative",
 left:"150px",
-top:"120px",
 color:"#fafcfd",
 opacity: "0.7",
 fontSize:"15px"
@@ -34,7 +30,7 @@ fontSize:"15px"
 color:"#fafcfd",
 fontFamily:"'DM Serif Display-Regular',Helvetica",
 fontSize:"40px",
-position:"absolute",
+
 top:"-10px",
     }
     const button={
@@ -46,14 +42,15 @@ borderColor:" #fafcfd",
 borderRadius: "24px",
 height: "45px",width: "110px",
 left: "150px",
+
 position: "absolute",
-top: "280px",
 cursor:"pointer"
     }
     const logos={
         float:"right",
         position:"relative",
         right:"80px",
+        bottom:"150px"
         
        
     }

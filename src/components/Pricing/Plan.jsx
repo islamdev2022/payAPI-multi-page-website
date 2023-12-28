@@ -5,9 +5,9 @@ import Footer from "../Footer";
   return (
     <div className="desktop-pricing">
       <div className="div">
-        <div className="overlap">
+        
           <div className="text-wrapper-5">Pricing</div>
-        </div>
+        
         <div className="group-8">
           <div className="group-9">
             <div className="group-10">

@@ -1,5 +1,33 @@
 import React, { useState } from 'react';
+const logos={
+       
+        position:"relative",
+        right:"-140px",
+        top:"30px"
+       
+    }
+    const logosTop={
+        marginBottom:"40px",
+        display:"flex",
+        gap:"40px"
+    }
+    const logosBottom={
+        display:"flex",
+        gap:"40px",
+        marginLeft:"10px"
+    }
+    const join={
+        fontFamily:"'Public Sans-Regular',Helvetica",
+        fontSize:"20px",
+        lineHeight:"28px",
+height:"100px",
+width:"410px",
+position:"relative",
+top:"30px",
+color:"#556571",
 
+
+    }
 
 const Contact = () => {
  const [form, setForm] = useState({
@@ -80,6 +108,22 @@ const Contact = () => {
     <br />
         <button type="submit">Submit</button>
       </form>
+      <div style={logos}>
+        <h2 style={join}>
+        join the thousands of innovators already building with us
+        </h2>
+        <div style={logosTop}>
+        <img src="/assets/shared/desktop/tesla.svg" alt="tesla"/>
+        <img src="/assets/shared/desktop/microsoft.svg" alt="microsoft" />
+        <img src="/assets/shared/desktop/hewlett-packard.svg" alt="hp" />
+        </div>
+        <div style={logosBottom}>
+        <img src="/assets/shared/desktop/oracle.svg" alt="oracle" />
+        <img src="/assets/shared/desktop/google.svg" alt="google" width={120} />
+        <img src="/assets/shared/desktop/nvidia.svg" alt="nvidia" />
+        </div>
+
+    </div>
     </div>
     </>
  );

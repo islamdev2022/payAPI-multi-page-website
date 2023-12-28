@@ -5,8 +5,8 @@ import Description from "./Description";
 
 const Home = () => {
     const div={
-    position:"relative",
-    bottom:"-730px"
+    
+    height:"200vh"
 }
 
     return ( <>

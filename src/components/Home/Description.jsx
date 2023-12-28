@@ -2,7 +2,8 @@ import Card from "./card"
 const Description = () => {
     const img={
         position:"absolute",
-        left:"80px"
+        left:"80px",
+        top:"-90px"
     }
   
     const des={
@@ -13,7 +14,8 @@ const Description = () => {
     opacity:'0.7',
     height: "84px",
 width: "450px",
-position:'absolute',
+position:'relative',
+left:"150px"
 
     }
     const tl={
@@ -22,23 +24,24 @@ position:'absolute',
         fontSize:"45px",
         position:"relative",
         width:"370px",
-        top:"30px"
+        left:"150px"
     }
     const right ={
         position:"absolute",
-        right:"200px",
+        right:"270px",
+        
     }
     const second={
         position:'absolute',
         top:'450px',
-        left:"130px",
+        width:"1px",
         display:"flex",
-        gap:'400px'
+        gap:'400px',
     }
     const ui={
         position:"relative",
         bottom: "100px",
-        left:"-200px"
+        left:"-120px",
 
     }
     const cards={
@@ -46,12 +49,15 @@ position:'absolute',
         position:'relative',
         top:"900Px",
         
-    }
-    const DescCo={
         
     }
+    const cnt={
+        height:'100vh',
+        position:"relative",
+        bottom:"-110px"
+    }
     
-    return ( <div style={DescCo}>
+    return ( <div style={cnt}>
         <img style={img} src="/assets/home/desktop/illustration-easy-to-implement.svg" alt="img" />
         <div style={right}>
             <h1 style={tl}>Easy to implement</h1>
@@ -60,15 +66,15 @@ position:'absolute',
              documentation page to handle payments functionality with ease.</p>
         </div>
 
-        <div style={second}>
-            <div>
+        <div  style={second}>
+            <div >
                  <h1 style={tl}>Simple UI & UX </h1>
             <p style={des}>Our pre-built form is easy to integrate in your app or
              website’s checkout flow and designed to optimize conversion. </p>
             </div>
-            <div>
+           
                 <img style={ui} src="/assets/home/desktop/illustration-simple-ui.svg" alt="simpleUI" width={600}/>
-            </div>
+          
         </div>
         <div style={cards}>
         <Card image="/assets/home/desktop/icon-personal-finances.svg" title="Personal Finances" text="Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. "></Card>

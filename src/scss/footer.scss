@@ -1,11 +1,11 @@
 .footer{
     position: relative;
-    bottom: -1240px;
 .up{
     left: 120px;
-    bottom: -530px;
-    position:absolute ;
+   
+    position:relative ;
     display: flex;
+    width: fit-content;
     h3{
         position: relative; 
         width: 440px;
@@ -47,13 +47,13 @@
 .down{
     height: 70px;
     width: 100%;
-    bottom:-600px;
+   
     position:relative ;
     background-color: #1b262f;
     .img{
         left: 50px;
         top: 18px;
-        position: absolute;
+        position: relative;
         width: 120px;
     }
    .list{
