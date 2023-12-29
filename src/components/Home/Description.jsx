@@ -1,4 +1,4 @@
-import Card from "./Card"
+import Card from 'src/components/Home/Card.jsx'
 const Description = () => {
     const img={
         position:"absolute",

@@ -1,6 +1,5 @@
 import StartB from "./StartB";
 import WorkWith from "./WorkWith";
-import Footer from "../Footer";
 import Description from "./Description";
 
 const Home = () => {
