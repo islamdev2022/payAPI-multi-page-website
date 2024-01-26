@@ -5,7 +5,7 @@ import Description from "./Description";
 const Home = () => {
     const div={
     
-    height:"200vh"
+    height:"220vh"
 }
 
     return ( <>

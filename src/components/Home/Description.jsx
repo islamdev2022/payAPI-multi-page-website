@@ -1,4 +1,4 @@
-import Card from 'src/components/Home/Card.jsx'
+import Card from './Card.jsx'
 const Description = () => {
     const img={
         position:"absolute",
@@ -41,7 +41,7 @@ left:"150px"
     const ui={
         position:"relative",
         bottom: "100px",
-        left:"-120px",
+        left:"-200px",
 
     }
     const cards={

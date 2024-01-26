@@ -2,9 +2,9 @@ const WorkWith = () => {
 
     const circle={
         position:"absolute",
-        bottom:"20px",
+        bottom:"300px",
         left:"-120px",
-        zIndex:"2"
+        zIndex:"10"
     }
     const container={
         height:"380px",
@@ -40,9 +40,10 @@ top:"-10px",
         border: "1px solid",
 borderColor:" #fafcfd",
 borderRadius: "24px",
-height: "45px",width: "110px",
+height: "45px",
+width: "110px",
 left: "150px",
-
+marginTop:"10px",
 position: "absolute",
 cursor:"pointer"
     }
@@ -66,7 +67,7 @@ cursor:"pointer"
     }
     return (
     <div style={container}>
-   <img style={circle} src="/assets/shared/desktop/bg-pattern-circle.svg" alt="circle" width={600} />
+   <img style={circle} src="/assets/shared/desktop/bg-pattern-circle.svg" alt="circle" width={500} />
    <div><h1 style={he}>Who we work with</h1>
    <p style={p}>Today, millions of people around the world have successfully connected
      their accounts to apps they love using our API. We provide developers with the 

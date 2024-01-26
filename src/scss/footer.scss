@@ -1,7 +1,7 @@
 .footer{
     position: relative;
 .up{
-    left: 120px;
+    left: 70px;
    
     position:relative ;
     display: flex;
@@ -43,34 +43,35 @@
         }
     }
 }
-
+  .down .img{
+        left: 100px;
+        top: 18px;
+        position: relative;
+        width: 120px;
+    }
 .down{
     height: 70px;
     width: 100%;
    
     position:relative ;
     background-color: #1b262f;
-    .img{
-        left: 50px;
-        top: 18px;
-        position: relative;
-        width: 120px;
-    }
-   .list{
-    left: 50px;
-    position: absolute;
-    bottom: 10px;
+
+   .list{ position: relative;
+    display:inline;
+      left: 100px;
+  top: 5px;
+
     .listItem{
-        cursor: pointer;
-  color: #99afc2;
+        
+  color: #ffffff !important;
   font-family: "Public Sans-Bold", Helvetica;  
   font-size: 15px;
   font-weight: 700;
-  left: 250px;
+
   letter-spacing: 0;
   line-height: normal;
   opacity: 0.7;
-  position: relative;
+ 
   list-style: none;
   display:inline;
   margin-right: 30px;
@@ -89,5 +90,5 @@
 }
 .link{
     text-decoration: none;
-    color: #36526a;
+    color: #ffffff;
 }

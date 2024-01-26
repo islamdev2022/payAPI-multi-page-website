@@ -1,10 +1,11 @@
 const TN = ({title,number}) => {
     const container={
         position:"relative",
-        left:"70px"
+        left:"40px",
+        width:"100%"
     }
     const Ti ={
-        width:"400Px",
+        width:"100%",
         color:"#36526a",
         fontFamily:"'DM Serif Display-Regular',Helvetica",
         opacity:"0.8",
